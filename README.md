@@ -8,10 +8,14 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the libraries and read the data frame using pandas.
+
+2.Calculate the null values present in the dataset and apply label encoder.
+
+3.Determine test and training data set and apply decison tree regression in dataset.
+
+4.Calculate Mean square error,data prediction and r2.
+ 
 
 ## Program:
 ```
@@ -55,26 +59,44 @@ dt.predict([[5,6]])
 Data Head:
 
 <img width="581" height="361" alt="Screenshot 2025-10-06 143116" src="https://github.com/user-attachments/assets/0af04a54-8625-4e44-af4b-241d5614a46a" />
+
+
 isnull().sum()
+
 
 <img width="299" height="324" alt="Screenshot 2025-10-06 143208" src="https://github.com/user-attachments/assets/8560efef-367f-4f8e-8f85-c73cb7cd4c0c" />
 
+
+
 Data Head for salary:
+
 
 <img width="503" height="374" alt="Screenshot 2025-10-06 143438" src="https://github.com/user-attachments/assets/b3715739-c6ab-4912-bfa7-f4fe1a02da47" />
 
 
+
 Data info:
+
+
+
 <img width="460" height="249" alt="Screenshot 2025-10-06 143025" src="https://github.com/user-attachments/assets/f086de99-dec4-461e-8e3e-27061eb8b7c7" />
+
+
 
 
 Mean Squared Error and R2 Value:
 
+
+
 <img width="345" height="46" alt="Screenshot 2025-10-06 142830" src="https://github.com/user-attachments/assets/d66a58c5-114c-499f-b702-e4b031c14f74" />
+
+
 
 Data Prediction:
 
+
 <img width="260" height="38" alt="Screenshot 2025-10-06 142933" src="https://github.com/user-attachments/assets/58ac6488-7484-487c-97a8-3d7d32ffd8c2" />
+
 
 
 ## Result:
