@@ -51,7 +51,7 @@ mse=metrics.mean_squared_error(y_test, y_pred)
 print(mse)
 r2= metrics.r2_score(y_test,y_pred)
 print(r2)
-dt.predict([[5,6]])
+print (dt.predict([[5,6]]))
 ```
 
 ## Output:
